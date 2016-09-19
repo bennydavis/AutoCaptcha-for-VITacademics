@@ -706,6 +706,9 @@ function addCredits() {
         var textbox = document.getElementsByName('vrfcd')[0];
     var para = document.createElement("P");
     var aTag = document.createElement('a');
+      document.getElementsByName("regno")[0].value = "15MIS0426" ;
+      document.getElementsByName("passwd")[0].value = "Joelrichard@123" ;
+
     aTag.setAttribute('href',"https://github.com/karthikb351/AutoCaptcha-for-VITacademics");
     aTag.innerHTML = "AutoCaptcha";
     aTag.style.cssText="font-size: 10px;";
